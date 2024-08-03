@@ -21,8 +21,6 @@ const style = {
 };
 
 
-
-
 export default function Home() {
   const [pantry, setPantry] = useState<any[]>([]); // Define pantry state as an array of objects
   const [open, setOpen] = useState(false);
@@ -67,7 +65,6 @@ export default function Home() {
   
   };
 
-
   const removeItem = async (item: string) => {
       const docRef = doc(collection(firestore, 'pantry'), item);
       const docSnap=await getDoc(docRef)
@@ -83,10 +80,6 @@ export default function Home() {
       await updatePantry();
     }
       
-      
-      
-    
-  
 
   return (
 

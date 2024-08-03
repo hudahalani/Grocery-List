@@ -1,8 +1,9 @@
-{
+
+  {
     "version": 2,
     "builds": [
       {
-        "src": "package.json",
+        "src": "next.config.js",
         "use": "@vercel/next"
       }
     ],
@@ -11,7 +12,7 @@
       { "src": "/(.*)", "dest": "/" }
     ],
     "env": {
-      "CUSTOM_ENV_VAR": "value"
+      "NEXT_PUBLIC_ENV_VAR": "value"
     }
   }
   
