@@ -13,8 +13,8 @@
     "react": "^18",
     "react-dom": "^18",
     "next": "14.2.5",
-    "@mui/material": "^5.13.7", // Ensure this matches the version you need
-    "firebase": "^9.11.0" // Ensure this matches the version you need
+    "@mui/material": "^5.13.7", 
+    "firebase": "^9.11.0" 
   },
   "devDependencies": {
     "typescript": "^5",
